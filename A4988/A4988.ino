@@ -1,14 +1,9 @@
-/*     Simple Stepper Motor Control Exaple Code
- *      
- *  by Dejan Nedelkovski, www.HowToMechatronics.com
- *  
- */
-
-// defines pins numbers
+ // defines pins numbers
 const int stepPin = 3; 
 const int dirPin = 4; 
  
 void setup() {
+  
   // Sets the two pins as Outputs
   pinMode(stepPin,OUTPUT); 
   pinMode(dirPin,OUTPUT);
